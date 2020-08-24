@@ -5,5 +5,5 @@ def my_collect(array)
     yield(array[count])
     count += 1
   end
-
+  return array
 end
